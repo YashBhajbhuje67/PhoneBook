@@ -13,7 +13,7 @@ const Addcontact = ({addcontact}) => {
   }
 
   return (
-    <div className='m-4 border-2 p-2 rounded-xl mx-[35%]'>
+    <div className='m-4 p-2'>
       <p className='flex items-center justify-center underline'>Add Contact</p>
       <form onSubmit={(e)=>{handlesubmit(e)}} className='flex flex-col m-2 p-4 items-center gap-4'>
       <label>Full Name: <input placeholder='Yash Bhajbhuje' className='px-1 border-b-2 rounded-md border-slate-300 hover:border-cyan-500 focus:outline-none focus:border-cyan-600' required/></label>
