@@ -57,7 +57,7 @@ function App() {
 
 
   return (
-    <div className='font-mono'>
+    <div className='font-[Cambria]'>
       <Navbar/>
       <AddContact addcontact={addcontact}/>
       <hr/>
